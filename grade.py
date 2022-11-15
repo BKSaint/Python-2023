@@ -1,9 +1,9 @@
-
+'''
 #This while loop is so you can convert multiple percentages to letter grades
 while True:
     
     #Turns the input into a variable 
-    grade = int(input("What is your weighted average?: "))
+    grade = input(int("What is your weighted average?: "))
 
 
 
@@ -23,3 +23,4 @@ while True:
 
     #This prints the final message that converts the percentage to a letter grade
     print("With an average of " + str(grade) + " your letter grade is: " + letter)
+'''
