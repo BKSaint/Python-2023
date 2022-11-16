@@ -1,6 +1,6 @@
-'''
+
 #List of items that can sbe changed
-mylist = [
+List1 = [
     "grass",
     "electric",
     "fire",
@@ -8,17 +8,16 @@ mylist = [
     "dragon"
 ]
 
-#List of items that cant be changed
-mytuple = (
+
+List2 = [
     "rock",
     "fairy",
     "ice",
     "poison",
     "steel"
-)
+]
 
-mylist.append("ground")
-mytuple[2] = "light"
-print(mylist[-1])
-print(mytuple)
-'''
+print(List1 + List2)
+print(" and ".join(List1 + List2))
+
+print("brbrbrbrbrbrbr".split("r"))

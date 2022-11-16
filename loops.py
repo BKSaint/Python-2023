@@ -22,17 +22,17 @@
 #     print(i)
 
 
-counter = 0
-todos = [""]
-prompt = input("Do you want to make a to-do list? Yes or No: ")
-while True:
-    if prompt == "No":
-        break
-    elif prompt == "Yes":
-        while todos[counter] != "(end)":
-            counter += 1
-            todos.append(input(str(counter) + ": "))
-    else:
-        print("Invalid Answer")
-        prompt = input("Do you want to make a to-do list? Yes or No: ")
+# counter = 0
+# todos = [""]
+# prompt = input("Do you want to make a to-do list? Yes or No: ")
+# while True:
+#     if prompt == "No":
+#         break
+#     elif prompt == "Yes":
+#         while todos[counter] != "(end)":
+#             counter += 1
+#             todos.append(input(str(counter) + ": "))
+#     else:
+#         print("Invalid Answer")
+#         prompt = input("Do you want to make a to-do list? Yes or No: ")
 
