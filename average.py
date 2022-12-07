@@ -12,5 +12,5 @@ while items > 0:
 for x in grade:
     sum = sum + x
 
-print(sum / len(grade))
+print("Your weighted average is " + str(sum / len(grade)) + "%")
 
