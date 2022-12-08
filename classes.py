@@ -8,12 +8,22 @@ class Person:
         self.name = name
         self.age = age
 
+class Teacher(Person):
+    role = "Teacher"
+    def hi(self):
+        print(f"{self.name}'s Attributes: {self.species}, {self.age}, {self.role}")
 
-saint = Person("Saint", "17")
+class Student(Person):
+    role = "Student"
+    def hi(self):
+        print(f"{self.name}'s Attributes: {self.species}, {self.age}, {self.role}")
 
+saint = Student("Saint", 17)
 saint.hi()
 
-tahmauri = Person("Tahmauri", "17")
-
+tahmauri = Student("Tahmauri", 17)
 tahmauri.hi()
+
+forlenza = Teacher("Forlenza", 184)
+forlenza.hi()
 
